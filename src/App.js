@@ -11,12 +11,12 @@ class App extends Component {
 
 
   //Your code here:
-
-
-
-
-
-
+  // Adds a timer just after the JSX is rendered in render(),
+  // so that the page automatically loads with a timer, otherwise
+  // it WebGLUniformLocationload empty
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
 
 
