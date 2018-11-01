@@ -9,15 +9,11 @@ class App extends Component {
     timerIDs: []
   }
 
-
   //Your code here:
 
-
-
-
-
-
-
+  componentDidMount() {
+    this.handleAddTimer()  // add as a class method
+  }
 
 
   // No need to modify anything in render or the class methods below
